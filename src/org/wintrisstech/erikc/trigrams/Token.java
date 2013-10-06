@@ -16,7 +16,7 @@ public enum Token {
 	    "d"), LOWER_E("e"), LOWER_F("f"), LOWER_G("g"), LOWER_H("h"), LOWER_I(
 	    "i"), LOWER_J("j"), LOWER_K("k"), LOWER_L("l"), LOWER_M("m"), LOWER_N(
 	    "n"), LOWER_O("o"), LOWER_O_UMLAUT("\u00f6"), LOWER_P("p"), LOWER_Q(
-	    "q"), LOWER_R("r"), LOWER_S("s"), LOWER_S_SHARP("\u00df"), LOWER_T(
+	    "q"), LOWER_R("r"), LOWER_S("s"), LOWER_ESZETT("\u00df"), LOWER_T(
 	    "t"), LOWER_U("u"), LOWER_U_UMLAUT("\u00fc"), LOWER_V("v"), LOWER_W(
 	    "w"), LOWER_X("x"), LOWER_Y("y"), LOWER_Z("z"), //
 
@@ -25,14 +25,14 @@ public enum Token {
 	    "D"), UPPER_E("E"), UPPER_F("F"), UPPER_G("G"), UPPER_H("H"), UPPER_I(
 	    "I"), UPPER_J("J"), UPPER_K("K"), UPPER_L("L"), UPPER_M("M"), UPPER_N(
 	    "N"), UPPER_O("O"), UPPER_O_UMLAUT("\u00d6"), UPPER_P("P"), UPPER_Q(
-	    "Q"), UPPER_R("R"), UPPER_S("S"), UPPER_S_SHARP("\u1e9e"), UPPER_T(
+	    "Q"), UPPER_R("R"), UPPER_S("S"), UPPER_ESZETT("\u1e9e"), UPPER_T(
 	    "T"), UPPER_U("U"), UPPER_U_UMLAUT("\u00dc"), UPPER_V("V"), UPPER_W(
 	    "W"), UPPER_X("X"), UPPER_Y("Y"), UPPER_Z("Z"), //
 
     // Special character combinations.
-    LOWER_CH("ch"), LOWER_SCH("sch"), LOWER_SS("ss"), //
-    UPPER_CH("CH"), UPPER_SCH("SCH"), UPPER_SS("SS"), //
-    INITIAL_CH("Ch"), INITIAL_SCH("Sch"), INITIAL_SS("Ss"), //
+    LOWER_CH("ch"), LOWER_SC("sc"), LOWER_SCH("sch"), LOWER_SS("ss"), LOWER_ST("st"), //
+    UPPER_CH("CH"), UPPER_SC("SC"), UPPER_SCH("SCH"), UPPER_SS("SS"), UPPER_ST("ST"),//
+    INITIAL_CH("Ch"), INITIAL_SC("Sc"), INITIAL_SCH("Sch"), INITIAL_SS("Ss"), INITIAL_ST("St"),//
 
     // Delimiters
     SPACE(" "), COMMA(","), PERIOD("."), COLON(":"), SEMI_COLON(";"), QUESTION_MARK(
